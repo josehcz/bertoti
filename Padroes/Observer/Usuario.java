@@ -1,14 +1,15 @@
 import java.util.*;
+
 public class Usuario {
 	
-	public double Vip;
+	public Double Vip;
 	public String nome;
-	public List<String> inventario = new ArrayList<String>();;
+	public String Inventario[];
 	
-	public Usuario(double v, String n, List<String> c){
+	public Usuario(Double v, String n, String Inventario[]){
 		Vip = v;
 		nome =n;
-		inventario = c;
+		inventario[];
 	}
 
 }

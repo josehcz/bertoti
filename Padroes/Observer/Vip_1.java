@@ -1,12 +1,12 @@
 public class Vip_1 implements Observer{
 	
-	public void update(double saldo,String usuario,String inventario[]){
+	public void update(Double vip,String inventario[]){
 		
-		display(saldo, usuario, inventario);
+		display(vip, usuario, inventario);
 		
 	}
 	
-	public void display(double s,String u, String i[]){
+	public void display(Double s,String u, String i[]){
 		
 		System.out.println("Bem vindo: "+u);
 		System.out.println("Seu nivel Vip é: "+s);

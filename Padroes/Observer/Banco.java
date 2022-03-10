@@ -21,19 +21,19 @@ public class Banco implements Subject{
 		}
 	}
 	
-	public void notifyObservers(double Vip, String nome, String inventario[]){
+	public void notifyObservers(Double Vip){
 		for (int i = 0; i < observers.size(); i++) {
 			Observer observer = (Observer)observers.get(i);
-			observer.update(Vip, nome,inventario);
+			observer.update(Vip);
 		}
 	}
 	
-	public String bonus(Usuario c, double vip){
+	public Double PromoVip_2(Double v,Usuario u){
 		
-		c.inventario.add("");
+		c.Vip = 2.0;
 		
-		notifyObservers(c.saldo);
-		return c.saldo;
+		notifyObservers(c.Vip);
+		return c.Vip;
 		
 	}
 

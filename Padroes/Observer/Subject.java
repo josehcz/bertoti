@@ -2,6 +2,6 @@ public interface Subject {
 	
 	public void registerObserver(Observer o);
 	public void removeObserver(Observer o);
-	public void notifyObservers(double Vip, String Usuario, String inventario[]);
+	public void notifyObservers(Double Vip, String Usuario, String inventario[]);
 
 }

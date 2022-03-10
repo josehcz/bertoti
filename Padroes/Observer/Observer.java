@@ -1,5 +1,5 @@
 public interface Observer {
 	
-	public void update(double Assinatura, String Usuario, String inventario[]);
+	public void update(Double vip,String inventario[]);
 
 }

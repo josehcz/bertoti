@@ -5,8 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-// É nossa estrutura de concreto.
-// Corresponde à parte composta do diagrama UML.
+
 // Mantém a lista de Componentes (ICatalogComponent).
 public class ProductCatalog implements ICatalogComponent {
     private String _name;
